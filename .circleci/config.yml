@@ -22,8 +22,8 @@ workflows:
   deploy:
     jobs:
       - release:
-        filters:
-          tags:
-            only: /^(release)$/
-          branches:
-            only: dev
+          filters:
+            tags:
+              only: /^(release)$/
+            branches:
+              only: dev
