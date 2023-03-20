@@ -26,6 +26,6 @@ workflows:
       - release:
           filters:
             tags:
-              only: /^(release)$/
+              only: /^(release)-(v.*)$/
             branches:
               only: dev
