@@ -13,6 +13,7 @@ jobs:
     executor: android-flutter
     steps:
       - checkout
+      - run: sudo gem install rails
       - run: gem update --system
       - run: bundle update --bundler
       - run: gem install bundler:2.3.26
