@@ -33,11 +33,11 @@ end
 platform :android do
   desc "Build and Release"
   lane :release do
-    # sh "./flutter_build.sh --clean"
-    # sh "./flutter_build.sh --apk"
-    # sendFile()
-    increment_version_code(version_code: ENV["BUILD_NUMBER_ANDROID"].to_i)
+    sh "./flutter_build.sh --clean"
+    sh "./flutter_build.sh --apk"
+    sendFile()
     sendMessage(true, "Release", nil)
+    # increment_version_code(version_code: ENV["BUILD_NUMBER_ANDROID"].to_i)
   end
 
   error do |lane, exception|
