@@ -1,0 +1,46 @@
+default_platform(:android)
+
+def sendFile()
+    telegram(
+    token: "5040370918:AAG3-gBbXlA3YfJCFuS8dAJA9PdtLurkMRo",
+    chat_id: "536885688",
+    text: "",
+    file: "./../build/app/outputs/flutter-apk/app.apk",
+    mime_type: "application/vnd.android.package-archive",
+  )
+end
+
+def sendMessage(isSuccess, lane, exception)
+#         token: "5040370918:AAG3-gBbXlA3YfJCFuS8dAJA9PdtLurkMRo", # Teachhay's bot
+#         chat_id: "536885688", #Teachhay's bot message
+#         token: "5638807789:AAErOz4Cb3e_dY6ZYmo3bAVeStX1c4DROLc", # Coolbeans release bot
+#         chat_id: "-493457148", #Coolbeans release group
+
+    if(isSuccess == true)
+      message = "*Project Name*: MyAnimeList - Cloned \n*Build Status*: Success \n*Platform*: Android \n*Environment*: #{lane} \n*Author*: Teachhay Lim"
+    else
+      message = "*Project*: MyAnimeList - Cloned \n*Build Status*: #{status} \n*Lane*: #{lane} \n*Exception*: #{exception}"
+    end
+
+    telegram(
+      parse_mode: "Markdown",
+      token: "5040370918:AAG3-gBbXlA3YfJCFuS8dAJA9PdtLurkMRo",
+      chat_id: "536885688",
+      text: message,
+    )
+end
+
+platform :android do
+  desc "Build and Release"
+  lane :release do
+    # sh "./flutter_build.sh --clean"
+    # sh "./flutter_build.sh --apk"
+    # sendFile()
+    increment_version_code(version_code: ENV["BUILD_NUMBER_ANDROID"].to_i)
+    sendMessage(true, "Release", nil)
+  end
+
+  error do |lane, exception|
+    sendMessage(false, lane, exception)
+  end
+end

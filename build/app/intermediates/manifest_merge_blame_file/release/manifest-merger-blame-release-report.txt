@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.teachhay.mal_clone"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:3:5-4:53
+11-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:4:9-51
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:5:5-6:65
+12-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:6:9-63
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[:network_info_plus] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/network_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+13-->[:network_info_plus] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/network_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+14
+15    <queries>
+15-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+16        <intent>
+16-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+17            <action android:name="android.support.customtabs.action.CustomTabsService" />
+17-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+17-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+18        </intent>
+19    </queries>
+20
+21    <application
+21-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:7:5-36:19
+22        android:allowBackup="false"
+22-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:9:9-36
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.8.0] /Users/coolbeans/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:10:9-43
+26        android:label="@string/app_name" >
+26-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:8:9-41
+27        <activity
+27-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:11:9-30:20
+28            android:name="com.example.mal_clone.MainActivity"
+28-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:12:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:16:13-163
+30            android:exported="true"
+30-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:13:13-36
+31            android:hardwareAccelerated="true"
+31-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:17:13-47
+32            android:launchMode="singleTop"
+32-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:14:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:15:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:18:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:23:13-25:56
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:24:17-72
+44                android:resource="@style/NormalTheme" />
+44-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:25:17-54
+45
+46            <intent-filter>
+46-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:26:13-29:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:27:17-68
+47-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:27:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:28:17-76
+49-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:28:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:33:9-35:32
+57            android:name="flutterEmbedding"
+57-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:34:13-44
+58            android:value="2" />
+58-->/Users/coolbeans/Desktop/Projects/Test/mal-clone/android/app/src/main/AndroidManifest.xml:35:13-30
+59
+60        <activity
+60-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+61            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+61-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+62            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+62-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+63            android:exported="false"
+63-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+64            android:theme="@style/AppTheme" />
+64-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+65        <activity
+65-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+66            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+66-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+67            android:exported="false"
+67-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+68            android:theme="@style/ThemeTransparent" />
+68-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+69        <activity
+69-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+70            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+70-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+71            android:exported="false"
+71-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+72            android:theme="@style/ThemeTransparent" />
+72-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+73        <activity
+73-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+74            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+74-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+75            android:exported="false"
+75-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+76            android:launchMode="singleInstance"
+76-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+77            android:theme="@style/ThemeTransparent" />
+77-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+78        <activity
+78-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+79            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+79-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+80            android:exported="false"
+80-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+81            android:launchMode="singleInstance"
+81-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+82            android:theme="@style/ThemeTransparent" />
+82-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+83
+84        <receiver
+84-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+85            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+85-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+86            android:enabled="true"
+86-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+87            android:exported="false" />
+87-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+88
+89        <meta-data
+89-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+90            android:name="io.flutter.embedded_views_preview"
+90-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+91            android:value="true" />
+91-->[:flutter_inappwebview] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+92
+93        <activity
+93-->[:url_launcher_android] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+94            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+94-->[:url_launcher_android] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+95            android:exported="false"
+95-->[:url_launcher_android] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+96            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+96-->[:url_launcher_android] /Users/coolbeans/Desktop/Projects/Test/mal-clone/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+97
+98        <uses-library
+98-->[androidx.window:window:1.0.0-beta04] /Users/coolbeans/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+99            android:name="androidx.window.extensions"
+99-->[androidx.window:window:1.0.0-beta04] /Users/coolbeans/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+100            android:required="false" />
+100-->[androidx.window:window:1.0.0-beta04] /Users/coolbeans/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+101        <uses-library
+101-->[androidx.window:window:1.0.0-beta04] /Users/coolbeans/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+102            android:name="androidx.window.sidecar"
+102-->[androidx.window:window:1.0.0-beta04] /Users/coolbeans/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+103            android:required="false" />
+103-->[androidx.window:window:1.0.0-beta04] /Users/coolbeans/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+104
+105        <provider
+105-->[androidx.emoji2:emoji2:1.2.0] /Users/coolbeans/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+106            android:name="androidx.startup.InitializationProvider"
+106-->[androidx.emoji2:emoji2:1.2.0] /Users/coolbeans/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+107            android:authorities="com.teachhay.mal_clone.androidx-startup"
+107-->[androidx.emoji2:emoji2:1.2.0] /Users/coolbeans/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+108            android:exported="false" >
+108-->[androidx.emoji2:emoji2:1.2.0] /Users/coolbeans/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+109            <meta-data
+109-->[androidx.emoji2:emoji2:1.2.0] /Users/coolbeans/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+110-->[androidx.emoji2:emoji2:1.2.0] /Users/coolbeans/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+111                android:value="androidx.startup" />
+111-->[androidx.emoji2:emoji2:1.2.0] /Users/coolbeans/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+112            <meta-data
+112-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/coolbeans/.gradle/caches/transforms-3/c7dc2d946f639e7b414f5fbe78913a76/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+113                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+113-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/coolbeans/.gradle/caches/transforms-3/c7dc2d946f639e7b414f5fbe78913a76/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+114                android:value="androidx.startup" />
+114-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/coolbeans/.gradle/caches/transforms-3/c7dc2d946f639e7b414f5fbe78913a76/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+115        </provider>
+116    </application>
+117
+118</manifest>
