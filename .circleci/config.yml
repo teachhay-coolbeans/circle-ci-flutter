@@ -10,11 +10,10 @@ executors:
 
 jobs:
   release:
-    executor:
-      name: android-flutter
-      steps:
-        - checkout
-        - run: cd android && fastlane release
+    executor: android-flutter
+    steps:
+      - checkout
+      - run: cd android && fastlane release
 
 workflows:
   version: 2
