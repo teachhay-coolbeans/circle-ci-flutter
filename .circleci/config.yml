@@ -13,6 +13,8 @@ jobs:
     executor: android-flutter
     steps:
       - checkout
+      - run: bundle update --bundler
+      - run: gem install bundler:2.3.26
       - run: cd android && fastlane release
 
 workflows:
